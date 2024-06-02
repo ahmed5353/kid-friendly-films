@@ -33,10 +33,14 @@ const MovieDetails: React.FC = () => {
               <MetaDescription>Release date : </MetaDescription>
               <span className="text-xl">{movie?.release_year}</span>
             </div>
+
             <Button
               className="-bg--color-primary-light h-12 self-center md:self-start max-w-56 text-md"
               ripple={true}
               onClick={() => console.log("clicked")}
+              placeholder=""
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Watch Now
             </Button>

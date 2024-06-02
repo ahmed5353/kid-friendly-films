@@ -22,7 +22,7 @@ function Home() {
     navigate(`/moviedetail/${movieId}`);
   }
 
-  console.log(movies);
+  // console.log(movies);
   return (
     <div>
       <h1 className="mb-10 text-2xl font-semibold ">Most Popular</h1>

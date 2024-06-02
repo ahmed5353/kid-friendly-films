@@ -1,14 +1,11 @@
-// Navbar.tsx
-
 import React from "react";
-// import SearchBar from "./SearchBar";
 import Logo from "./Logo";
 import useMovies from "../../features/Movies/useMovies";
 import { useLocation } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const location = useLocation();
-  console.log(location.pathname);
+  // console.log(location.pathname);
 
   const { movies } = useMovies();
   const moviesLength: number = movies?.length;
