@@ -23,7 +23,7 @@ function MoviesProvider({ children }: MoviesProviderProps): JSX.Element {
     function () {
       return {
         movies: [],
-        movie,
+        movie: null, // Update the initial state to null
         setMovie,
       };
     },
