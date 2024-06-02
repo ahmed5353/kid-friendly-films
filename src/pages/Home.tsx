@@ -30,6 +30,7 @@ function Home() {
       {/* Movie Card */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center lg:grid-cols-4  xl:grid-cols-5 xl:gap-x-24 gap-y-10">
         {movies?.map((movie: MovieProps) => (
+          // NOTE: I tried to add more movies but json placeholder wants maxContentLength size of 10000 not exceeded
           <MovieCard
             key={movie.id}
             title={movie.name}
