@@ -1,7 +1,11 @@
-import AppLayout from "./ui/AppLayout";
+// import { lazy } from "react";
+import AppLayout from "./components/ui/AppLayout";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
 import MovieDetails from "./pages/MovieDetails";
+import Home from "./pages/Home";
+
+// const Home = lazy(() => import("./pages/Home"));
+// const MovieDetails = lazy(() => import("./pages/MovieDetails"));
 
 function App() {
   return (

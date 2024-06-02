@@ -1,4 +1,4 @@
-import InputSearch from "../../ui/Input"; // Adjust the import according to your file structure
+import InputSearch from "../ui/Input"; // Adjust the import according to your file structure
 
 function SearchBar() {
   return (
